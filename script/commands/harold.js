@@ -17,7 +17,7 @@ module.exports.run = async function ({ api, event, args }) {
     const id = event.senderID;  
     let apiUrl;
 
-    if (!content) return api.sendMessage("Hello There I'm Harold Hutchins Chatbot made by Jonell Magallanes Haha", event.threadID, event.messageID);
+    if (!content) return api.sendMessage("Hello There I'm JarVis Chatbot made by JhaY ON", event.threadID, event.messageID);
     api.setMessageReaction("💭", event.messageID, () => { }, true);
 
     apiUrl = `https://harolai-71030c5ce4eb.herokuapp.com/harold?ask=${content}&id=${id}`;
