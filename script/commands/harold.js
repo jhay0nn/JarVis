@@ -20,7 +20,7 @@ module.exports.run = async function ({ api, event, args }) {
     if (!content) return api.sendMessage("YEAHhh Gar I'm JarVis Chatbot made by JhaY ON", event.threadID, event.messageID);
     api.setMessageReaction("💭", event.messageID, () => { }, true);
 
-    apiUrl = `https://harolai-71030c5ce4eb.herokuapp.com/harold?ask=${content}&id=${id}`;
+    apiUrl = `https://jarvis-ai-cdlh.onrender.com/jar?ask=${content}&id=${id}`;
 
     try {
 
