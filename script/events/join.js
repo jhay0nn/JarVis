@@ -17,7 +17,7 @@ module.exports.run = async function ({ api, event, Users, Threads }) {
 
     if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
         api.changeNickname(`${global.config.BOTNAME} • [ ${global.config.PREFIX} ]`, event.threadID, api.getCurrentUserID());
-        return reply(`✅ | ${global.config.BOTNAME} connected successfully!\nType "${global.config.PREFIX}help" to view all commands\n\nContact the admin if you encounter an error.\n\n👷Developer: Jonell Magallanes`);
+        return reply(`✅ | ${global.config.BOTNAME} connected successfully!\nType "${global.config.PREFIX}help" to view all commands\n\nContact the admin if you encounter an error.\n\n👷Developer: JhaY ON`);
     } else {
         try {
             const {
