@@ -30,7 +30,7 @@ module.exports.run = async function ({ api, event, args }) {
         api.sendMessage(reply, event.threadID, event.messageID);
     } catch (error) {
         console.error(error);
-        api.sendMessage("Nagkaroon ng Error Sa Main Server ng API Please Try Again Later or Contact the Developer Jonell Magallanes Thanks", event.threadID);
+        api.sendMessage("Nagkaroon ng Error Sa Main Server ng API Please Try Again Later or Contact the Developer JhaY ON", event.threadID);
         api.setMessageReaction("😭", event.messageID, () => { }, true);
     }
 };
