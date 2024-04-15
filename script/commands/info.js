@@ -66,7 +66,7 @@ module.exports.run = async function ({ api, event, args, Users, permssion, getTe
       "MintBot có thể hiểu phụ nữ nhưng không thể có được họ.",
       "MintBot cân spam nhưng không có gì đáng để bạn spam."
     ];
-    var link = ["https://i.postimg.cc/h4yLDcZ7/New-Project-1165-B853-C36.png"];
+    var link = ["https://ibb.co/1n2j79N"];
 
     var i = 1;
     var msg = [];
