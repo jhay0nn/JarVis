@@ -300,6 +300,26 @@ if ((event.body.toLowerCase() == "ako developer mo") || (event.body.toLowerCase(
     return api.sendMessage("Are you gagoing me?!", threadID);
   };
 
+   if ((event.body.toLowerCase() == "alightmotion") || (event.body.toLowerCase() == "bobo")) {
+    return api.sendMessage("yeah gar gusto mo ng premium gar? mura lang 1yr subscrition na add/Pm mo si JhaY ON", threadID);
+  };
+
+   if ((event.body.toLowerCase() == "am") || (event.body.toLowerCase() == "bobo")) {
+    return api.sendMessage("yeah gar gusto mo ng premium gar? mura lang 1yr subscrition na add/Pm mo si JhaY ON", threadID);
+  };
+
+   if ((event.body.toLowerCase() == "am version") || (event.body.toLowerCase() == "bobo")) {
+    return api.sendMessage("yeah gar gusto mo ng premium gar? mura lang 1yr subscrition na add/Pm mo si JhaY ON", threadID);
+  };
+
+   if ((event.body.toLowerCase() == "link") || (event.body.toLowerCase() == "bobo")) {
+    return api.sendMessage("yeah gar gusto mo ng premium gar? mura lang 1yr subscrition na add/Pm mo si JhaY ON", threadID);
+  };
+
+   if ((event.body.toLowerCase() == "am link") || (event.body.toLowerCase() == "bobo")) {
+    return api.sendMessage("yeah gar gusto mo ng premium gar? mura lang 1yr subscrition na add/Pm mo si JhaY ON", threadID);
+  };
+
   if ((event.body.toLowerCase() == "Naol") || (event.body.toLowerCase() == "naol")) {
     return api.sendMessage("(2)", threadID);
   };
