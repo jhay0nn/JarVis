@@ -88,8 +88,8 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
     return api.sendMessage("Yes? ano po yun", threadID);
   };
 
-  if ((event.body.toLowerCase() == "jonell") || (event.body.toLowerCase() == "Jonell Magallanes")) {
-    return api.sendMessage("Medyo busy si developer baka nag eedit pa", threadID);
+  if ((event.body.toLowerCase() == "jhay") || (event.body.toLowerCase() == "JhaY ON")) {
+    return api.sendMessage("Medyo busy si developer baka nag eedit pa, busy pa sa mga babae nya", threadID);
   };
 
   if ((event.body.toLowerCase() == "HAHA") || (event.body.toLowerCase() == "HA-HA-HA")) {
@@ -304,23 +304,27 @@ if ((event.body.toLowerCase() == "ako developer mo") || (event.body.toLowerCase(
     return api.sendMessage("Are you gagoing me?!", threadID);
   };
 
-   if ((event.body.toLowerCase() == "alightmotion") || (event.body.toLowerCase() == "bobo")) {
+   if ((event.body.toLowerCase() == "alightmotion") || (event.body.toLowerCase() == "preset")) {
     return api.sendMessage("yeah gar gusto mo ng premium gar? mura lang 1yr subscrition na add/Pm mo si JhaY ON", threadID);
   };
 
-   if ((event.body.toLowerCase() == "am") || (event.body.toLowerCase() == "bobo")) {
+   if ((event.body.toLowerCase() == "am") || (event.body.toLowerCase() == "alightmotion")) {
     return api.sendMessage("yeah gar gusto mo ng premium gar? mura lang 1yr subscrition na add/Pm mo si JhaY ON", threadID);
   };
 
-   if ((event.body.toLowerCase() == "am version") || (event.body.toLowerCase() == "bobo")) {
+   if ((event.body.toLowerCase() == "am version") || (event.body.toLowerCase() == "version")) {
     return api.sendMessage("yeah gar gusto mo ng premium gar? mura lang 1yr subscrition na add/Pm mo si JhaY ON", threadID);
   };
 
-   if ((event.body.toLowerCase() == "link") || (event.body.toLowerCase() == "bobo")) {
+   if ((event.body.toLowerCase() == "link") || (event.body.toLowerCase() == "xml")) {
     return api.sendMessage("yeah gar gusto mo ng premium gar? mura lang 1yr subscrition na add/Pm mo si JhaY ON", threadID);
   };
 
-   if ((event.body.toLowerCase() == "am link") || (event.body.toLowerCase() == "bobo")) {
+   if ((event.body.toLowerCase() == "am link") || (event.body.toLowerCase() == "alightmotion link")) {
+    return api.sendMessage("yeah gar gusto mo ng premium gar? mura lang 1yr subscrition na add/Pm mo si JhaY ON", threadID);
+  };
+
+   if ((event.body.toLowerCase() == "edit") || (event.body.toLowerCase() == "editor")) {
     return api.sendMessage("yeah gar gusto mo ng premium gar? mura lang 1yr subscrition na add/Pm mo si JhaY ON", threadID);
   };
 
