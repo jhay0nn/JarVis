@@ -4,7 +4,7 @@ module.exports.config = {
   hasPermssion: 0,
   credits: "John Lester",
   description: "biliboard",
-usePrefix: false,
+  usePrefix: true,
   commandCategory: "edit-img",
   usages: "[text]",
   cooldowns: 5,
