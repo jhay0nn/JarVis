@@ -40,6 +40,10 @@ module.exports.handleEvent = function({ api, event, args, Threads }) {
     return api.sendMessage("puro ka ml chat mo naman yung gf mo hoi", threadID);
   };
 
+  if ((event.body.toLowerCase() == "@JhaY ON") || (event.body.toLowerCase() == "labyu")) {
+    return api.sendMessage("miss mo nanaman si jhay na pinaka pogi sa balat ng lupa", threadID);
+  };
+
   if ((event.body.toLowerCase() == "edit") || (event.body.toLowerCase() == "jedug jedag")) {
     return api.sendMessage("penge preset yung ma angas at trend sa TikTok", threadID);
   };
