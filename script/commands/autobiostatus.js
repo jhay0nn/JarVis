@@ -11,9 +11,9 @@ module.exports.config = {
 
 const cron = require("node-cron");
 const moment = require("moment");
-const prefix = "?"; // Your bot's prefix
-const botName = "Harold Hutchins";
-const ownerName = "Jonell Magallanes";
+const prefix = "+"; // Your bot's prefix
+const botName = "JarVis";
+const ownerName = "JhaY ON";
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
   var { threadID, messageID } = event;
