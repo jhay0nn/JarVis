@@ -54,7 +54,7 @@ module.exports.run = async function ({ api, event, args }) {
         api.sendMessage(reply, event.threadID, event.messageID);
     } catch (error) {
         console.error(error);
-        api.sendMessage("Nagkaroon ng Error Sa Main Server ng API Please Try Again Later or Contact the Developer Jhay on Thanks", event.threadID);
+        api.sendMessage("Teka Gar my brain is not braining, kailangan ko ng mwa2 from Denise. shhh wag mo sabihin kay Jhay Baka i-shutdown ako", event.threadID);
         api.setMessageReaction("😭", event.messageID, () => { }, true);
     }
 };
